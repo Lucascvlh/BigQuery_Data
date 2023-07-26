@@ -1,0 +1,62 @@
+[
+  {
+      "name": "DATE_PO",
+      "type": "DATE",
+      "mode": "NULLABLE",
+      "description": "Data da PO"
+  },
+  {
+      "name": "PO",
+      "type": "INTEGER",
+      "mode": "NULLABLE",
+      "description": "PO"
+  },
+  {
+      "name": "BUYER",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Comprador"
+  },
+  {
+      "name": "BRANCH",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Filial"
+  },
+  {
+      "name": "PROVIDER",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Fornecedor"
+  },
+  {
+      "name": "LINE",
+      "type": "INTEGER",
+      "mode": "NULLABLE",
+      "description": "Linha da PO"
+  },
+  {
+      "name": "ITEM",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Item"
+  },
+  {
+      "name": "NF",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Nota fiscal"
+  },
+  {
+      "name": "VALUE",
+      "type": "FLOAT",
+      "mode": "NULLABLE",
+      "description": "Valor"
+  },
+  {
+      "name": "EXPIRATION_DATE",
+      "type": "DATE",
+      "mode": "NULLABLE",
+      "description": "Data de vencimento"
+  }
+]
