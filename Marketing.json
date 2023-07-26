@@ -1,0 +1,158 @@
+[
+  {
+      "name": "REQUEST_DATE",
+      "type": "DATE",
+      "mode": "NULLABLE",
+      "description": "Data de geração da PO"
+  },
+  {
+      "name": "REQUESTER",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Solicitante"
+  },
+  {
+      "name": "APPOINTMENT",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Rateio?"
+  },
+  {
+      "name": "AREA",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Área"
+  },
+  {
+      "name": "URGENCY",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Urgência"
+  },
+  {
+      "name": "PROVIDER",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Fornecedor"
+  },
+  {
+      "name": "CNPJ_PROVIDER",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "CNPJ do fornecedor"
+  },
+  {
+      "name": "BRANCH",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Filial"
+  },
+  {
+      "name": "DESCRIPTION",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Descrição"
+  },
+  {
+      "name": "ITEM",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Item"
+  },
+  {
+      "name": "NF",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Nº da NF"
+  },
+  {
+      "name": "DAYS",
+      "type": "INTEGER",
+      "mode": "NULLABLE",
+      "description": "Dias"
+  },
+  {
+      "name": "VALUE",
+      "type": "FLOAT",
+      "mode": "NULLABLE",
+      "description": "Valor"
+  },
+  {
+      "name": "ISSUANCE_DATE",
+      "type": "DATE",
+      "mode": "NULLABLE",
+      "description": "Data de emissão"
+  },
+  {
+      "name": "EXPIRANTION_DATE",
+      "type": "DATE",
+      "mode": "NULLABLE",
+      "description": "Data de vencimento"
+  },
+  {
+      "name": "TYPE_PAYMENT",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Forma de pagamento"
+  },
+  {
+      "name": "ACCOUNT",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Estrutura contábil"
+  },
+  {
+      "name": "APPROVER",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Aprovador"
+  },
+  {
+      "name": "PO",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Número da PO"
+  },
+  {
+      "name": "DATE_PO",
+      "type": "DATE",
+      "mode": "NULLABLE",
+      "description": "Data da PO"
+  },
+  {
+      "name": "STATUS",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Aguardando aprovação"
+  },
+  {
+      "name": "CALLED",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Chamado no Kirk"
+  },
+  {
+      "name": "DATE_CALLED",
+      "type": "DATE",
+      "mode": "NULLABLE",
+      "description": "Data do chamado"
+  },
+  {
+      "name": "DATE_PAY",
+      "type": "DATE",
+      "mode": "NULLABLE",
+      "description": "Data de pagamento"
+  },
+  {
+      "name": "SYSTEM",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Sistema"
+  },
+  {
+      "name": "NOTE",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Observação"
+  }
+]
