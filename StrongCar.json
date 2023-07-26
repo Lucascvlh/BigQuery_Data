@@ -1,0 +1,44 @@
+[
+  {
+      "name": "REQUEST_DATE",
+      "type": "DATE",
+      "mode": "NULLABLE",
+      "description": "Data de geração da PO"
+  },
+  {
+      "name": "PO",
+      "type": "INTEGER",
+      "mode": "NULLABLE",
+      "description": "PO"
+  },
+  {
+      "name": "SERVICE",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Serviço"
+  },
+  {
+      "name": "VALUE",
+      "type": "FLOAT",
+      "mode": "NULLABLE",
+      "description": "Valor"
+  },
+  {
+      "name": "PROVIDER",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Fornecedor"
+  },
+  {
+      "name": "CNPK_PROVIDER",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "CNPJ do fornecedor"
+  },
+  {
+      "name": "EXPIRATION_DATE",
+      "type": "DATE",
+      "mode": "NULLABLE",
+      "description": "Data de vencimento"
+  }
+]
